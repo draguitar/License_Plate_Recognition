@@ -1,0 +1,42 @@
+﻿已經開始建置於 2017/1/10 下午 09:24:36。
+     1>節點 2 (Rebuild 目標) 上的專案 "C:\Users\draguitar\documents\visual studio 2012\Projects\OpenCV_3_License_Plate_Recognition_Cpp\OpenCV_3_License_Plate_Recognition_Cpp\OpenCV_3_License_Plate_Recognition_Cpp.vcxproj"。
+     1>ClCompile:
+         F:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt DetectChars.cpp DetectPlates.cpp Main.cpp PossibleChar.cpp PossiblePlate.cpp Preprocess.cpp
+         Preprocess.cpp
+     1>f:\opencv3.1\build\include\opencv2\core\mat.hpp(1965): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>f:\opencv3.1\build\include\opencv2\core\persistence.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>f:\opencv3.1\build\include\opencv2\core\utility.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         PossiblePlate.cpp
+     1>f:\opencv3.1\build\include\opencv2\core\mat.hpp(1965): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>f:\opencv3.1\build\include\opencv2\core\persistence.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>f:\opencv3.1\build\include\opencv2\core\utility.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         PossibleChar.cpp
+     1>f:\opencv3.1\build\include\opencv2\core\mat.hpp(1965): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>f:\opencv3.1\build\include\opencv2\core\persistence.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>f:\opencv3.1\build\include\opencv2\core\utility.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         Main.cpp
+     1>f:\opencv3.1\build\include\opencv2\core\mat.hpp(1965): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>f:\opencv3.1\build\include\opencv2\core\persistence.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>f:\opencv3.1\build\include\opencv2\core\utility.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         DetectPlates.cpp
+     1>f:\opencv3.1\build\include\opencv2\core\mat.hpp(1965): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>f:\opencv3.1\build\include\opencv2\core\persistence.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>f:\opencv3.1\build\include\opencv2\core\utility.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         DetectChars.cpp
+     1>f:\opencv3.1\build\include\opencv2\core\mat.hpp(1965): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>f:\opencv3.1\build\include\opencv2\core\persistence.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>f:\opencv3.1\build\include\opencv2\core\utility.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         正在產生程式碼...
+       Link:
+         F:\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\draguitar\documents\visual studio 2012\Projects\OpenCV_3_License_Plate_Recognition_Cpp\Debug\DIP10577605.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_ts310d.lib opencv_world310d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\draguitar\documents\visual studio 2012\Projects\OpenCV_3_License_Plate_Recognition_Cpp\Debug\DIP10577605.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\draguitar\documents\visual studio 2012\Projects\OpenCV_3_License_Plate_Recognition_Cpp\Debug\DIP10577605.lib" /MACHINE:X86 Debug\DetectChars.obj
+         Debug\DetectPlates.obj
+         Debug\Main.obj
+         Debug\PossibleChar.obj
+         Debug\PossiblePlate.obj
+         Debug\Preprocess.obj
+         OpenCV_3_License_Plate_Recognition_Cpp.vcxproj -> C:\Users\draguitar\documents\visual studio 2012\Projects\OpenCV_3_License_Plate_Recognition_Cpp\Debug\DIP10577605.exe
+     1>專案 "C:\Users\draguitar\documents\visual studio 2012\Projects\OpenCV_3_License_Plate_Recognition_Cpp\OpenCV_3_License_Plate_Recognition_Cpp\OpenCV_3_License_Plate_Recognition_Cpp.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:10.85
